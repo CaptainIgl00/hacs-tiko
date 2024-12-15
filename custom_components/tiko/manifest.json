@@ -1,0 +1,16 @@
+{
+    "domain": "tiko",
+    "name": "Tiko Heating",
+    "documentation": "https://github.com/CaptainIgl00/hacs-tiko",
+    "issue_tracker": "https://github.com/CaptainIgl00/hacs-tiko/issues",
+    "dependencies": [],
+    "codeowners": ["@CaptainIgl00"],
+    "requirements": [
+        "aiohttp>=3.8.0",
+        "gql>=3.4.1"
+    ],
+    "iot_class": "cloud_polling",
+    "version": "1.0.0",
+    "config_flow": true,
+    "icon": "mdi:radiator"
+} 

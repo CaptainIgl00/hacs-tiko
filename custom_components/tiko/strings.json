@@ -1,0 +1,36 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "email": "Email",
+                    "password": "Password"
+                },
+                "description": "Please enter your Tiko credentials to connect to your heating system.",
+                "title": "Connect to Tiko"
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect to Tiko. Please check your internet connection and try again.",
+            "invalid_auth": "Invalid email or password. Please check your credentials and try again.",
+            "rate_limit": "Rate limit reached. Please wait a few minutes before trying again.",
+            "unknown": "An unexpected error occurred. Please check the logs for more details."
+        },
+        "abort": {
+            "already_configured": "This Tiko account is already configured in Home Assistant."
+        }
+    },
+    "entity": {
+        "climate": {
+            "tiko": {
+                "state_attributes": {
+                    "preset_mode": {
+                        "none": "Normal",
+                        "eco": "Eco (Frost Protection)",
+                        "away": "Away"
+                    }
+                }
+            }
+        }
+    }
+} 
