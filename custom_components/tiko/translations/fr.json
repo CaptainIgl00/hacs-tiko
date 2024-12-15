@@ -20,18 +20,5 @@
         "abort": {
             "already_configured": "Ce compte Tiko est déjà configuré dans Home Assistant."
         }
-    },
-    "entity": {
-        "climate": {
-            "tiko": {
-                "state_attributes": {
-                    "preset_mode": {
-                        "none": "Normal",
-                        "eco": "Éco (Protection gel)",
-                        "away": "Absent"
-                    }
-                }
-            }
-        }
     }
 } 
